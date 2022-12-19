@@ -1,0 +1,119 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.list2 {
+  float: right;
+}
+
+.list2 a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 35px 16px;
+  text-decoration: none;
+  transition:0.3s;
+}
+
+.list2 a:hover {
+  color: #A77258;
+}
+
+.list1 {
+  float: left;
+}
+
+.list1 a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding-left:50px;
+  padding-right:16px;
+  margin-top:37px;
+  text-decoration: none;
+}
+
+.list1 a::after {
+  content: '';
+  display: block;
+  width: 0%;
+  margin-top:37px;
+  height: 2px;
+  background: #A77258;
+  transition: width .3s;
+}
+
+.list1 a:hover {
+  color: #A77258;
+}
+
+.list1 a:hover::after {
+  width: 100%;
+}
+
+.list3 a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 35px 16px;
+  text-decoration: none;
+}
+
+.list3 {
+  float: right;
+}
+
+.list4 {
+  float: right;
+}
+
+.list4 a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 35px 16px;
+  text-decoration: none;
+}
+
+.mainImage{
+  width:100%;
+  height:784px
+}
+
+.logo{
+  width:200px;
+  height:100px;
+}
+
+.list5{
+  display: block;
+  width: 200px;
+  height: 0px;
+  margin: auto;
+}
+
+.placeholder{
+  width:570px;
+  height:378px;
+}
+
+.itemContainer{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:13px;
+}
+
+.imageContainer{
+  margin-top:150px;
+}
+
+.center{
+  margin-right: 30px;
+}
